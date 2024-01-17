@@ -1,8 +1,6 @@
 #include <iostream>
 
-void Log(const char* message) {
-    std::cout << message << std::endl;
-}
+void Log(const char* message);  //link work here
 
 int main(){
 	std::cout << "hello World" << std::endl;
